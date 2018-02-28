@@ -1,6 +1,6 @@
 FROM scratch
-EXPOSE 8080
+EXPOSE 8081
 
-COPY http-server /
+COPY . /var/lib/jenkins/workspace/CMAYA
 
 CMD ["http-server"]
